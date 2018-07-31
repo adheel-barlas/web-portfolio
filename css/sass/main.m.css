@@ -1,0 +1,22 @@
+.ot-header {
+  background: red; }
+
+#logo-main {
+  display: block;
+  margin: 20px auto;
+  height: 120px; }
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none; }
+  #navbar-primary.navbar-default .navbar-nav {
+    width: 100%;
+    text-align: center; }
+    #navbar-primary.navbar-default .navbar-nav > li {
+      display: inline-block;
+      float: none; }
+      #navbar-primary.navbar-default .navbar-nav > li > a {
+        padding-left: 30px;
+        padding-right: 30px; }
+
+/*# sourceMappingURL=main.m.css.map */
