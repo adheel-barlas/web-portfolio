@@ -1,0 +1,25 @@
+// Header layout 
+
+.header-intro{
+    height: 90vh;
+    background: $dark-bg;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .intro-info{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        h1, h2{
+            color: #fff;
+        }
+    
+        .highlight-text{
+            color: #FF5219;
+        }
+    }
+}
