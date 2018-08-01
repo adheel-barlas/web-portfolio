@@ -6,6 +6,7 @@
     color: $color;
     transition: color $duration $duration/3;
     position: relative;
+    margin-top: 15px;
     
     &::before,
     &::after {
@@ -54,3 +55,4 @@
   .draw-border {
     @include btn-border-drawing(#fff, #FF5219, 4px, bottom, right);
   }
+
