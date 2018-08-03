@@ -53,6 +53,6 @@
   }
   
   .draw-border {
-    @include btn-border-drawing($white, $orange, 4px, bottom, right);
+    @include btn-border-drawing($white, $blue, 4px, bottom, right);
   }
 
