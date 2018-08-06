@@ -9,7 +9,6 @@
 		display:block;
 		margin-bottom:15px;
 		width:100%;
-		background:#efefef;
 		height:30px;
 		border-radius:3px;
 		-moz-border-radius:3px;
@@ -33,8 +32,8 @@
 		width:110px;
 		font-weight:bold;
 		font-size:13px;
-		color:#fff;
-		background:#6adcfa;
+		color:$white;
+		background: $blue;
 		-webkit-border-top-left-radius:3px;
 		-webkit-border-bottom-left-radius:4px;
 		-moz-border-radius-topleft:3px;
@@ -45,7 +44,7 @@
 
 	.skillbar-title span {
 		display:block;
-		background:rgba(0, 0, 0, 0.15);
+		background: $black;
 		padding:0 20px;
 		height:30px;
 		line-height:30px;
@@ -72,6 +71,6 @@
 		font-size:11px;
 		height:30px;
 		line-height:30px;
-		color:#ffffff;
-		color:rgba(0, 0, 0, 0.5);
+		color: $white;
+		color: $black;
 	}
