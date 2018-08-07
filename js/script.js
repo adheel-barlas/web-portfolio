@@ -43,7 +43,7 @@ var $elem = $(".container-skillbar")
         return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
     }
 
-
+// On scroll to view point, animate skill bars
 $(document).on("scroll", function () {
     if (isScrolledIntoView($elem, $window)) {
         jQuery(document).ready(function(){
@@ -54,4 +54,11 @@ $(document).on("scroll", function () {
           });
         });
     }
+});
+
+// Smooth scrolling on CTAs
+$("#ctaAbout").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#aboutMe").offset().top
+  }, 2000);
 });
