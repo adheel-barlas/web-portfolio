@@ -62,3 +62,10 @@ $("#ctaAbout").click(function() {
       scrollTop: $("#aboutMe").offset().top
   }, 2000);
 });
+
+// Smooth scrolling on CTAs
+$("#ctaProjects").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+  }, 2000);
+});

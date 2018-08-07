@@ -165,6 +165,9 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 .section-heading {
   margin-bottom: 2%; }
 
+section {
+  margin-bottom: 2%; }
+
 .container-skillbar {
   width: 100%;
   height: auto;
