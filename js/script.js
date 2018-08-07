@@ -27,10 +27,31 @@ $(window).on("scroll", function(){
 });
 
 // Skill bar component
-jQuery(document).ready(function(){
-  jQuery('.skillbar').each(function(){
-    jQuery(this).find('.skillbar-bar').animate({
-      width:jQuery(this).attr('data-percent')
-    },3000);
-  });
+
+
+// Animation for skill bar
+var $window = $(window);
+var $elem = $(".container-skillbar")
+
+    function isScrolledIntoView($elem, $window) {
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
+
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+
+$(document).on("scroll", function () {
+    if (isScrolledIntoView($elem, $window)) {
+        jQuery(document).ready(function(){
+          jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+              width:jQuery(this).attr('data-percent')
+            },3000);
+          });
+        });
+    }
 });
