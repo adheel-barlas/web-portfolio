@@ -2,7 +2,7 @@
 
 .header-intro{
     height: 90vh;
-    background: $dark-bg;
+    background: $white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,11 +15,11 @@
         transform: translate(-50%, -50%);   
         
         h1, h2{
-            color: $white;
+            color: $black;
         }
     
         .highlight-text{
-            color: $blue;
+            color: $black;
         }
     }
 }
