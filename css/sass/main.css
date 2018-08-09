@@ -72,6 +72,9 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 .container-nav {
   background: #fff; }
 
+.navbar-collapse {
+  margin-bottom: 25px; }
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -209,11 +212,13 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
   border: none;
   box-shadow: 0 0 0 2px rgba(38, 38, 38, 0.1) inset;
   background: none;
-  padding: 2rem 6rem;
+  padding: 1rem 3rem;
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  color: #262626; }
+  color: #262626;
+  margin-right: 30px;
+  margin-top: 20px; }
   .outline-button:hover .outline-button__line {
     transform: none; }
 

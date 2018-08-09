@@ -4,6 +4,10 @@
   background: $white;
 }
 
+.navbar-collapse{
+	margin-bottom: 25px;
+}
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -11,6 +15,7 @@
   background: #fff none repeat scroll 0 0;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
+  
 }
 
 .navbar-default {
