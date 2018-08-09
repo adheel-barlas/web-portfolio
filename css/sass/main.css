@@ -67,6 +67,11 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
       color: #262626; }
     .header-intro .intro-info .highlight-text {
       color: #262626; }
+  .header-intro .intro-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px; }
 
 /* Main Navigation */
 .container-nav {
