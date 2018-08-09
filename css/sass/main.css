@@ -52,12 +52,13 @@ This file is used to contain all layouts imports.
 Files inside this folder can contain abstract settings, helpers or functions. They have no direct output.
 */
 .header-intro {
-  height: 90vh;
+  height: 80vh;
   background: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-color: red; }
   .header-intro .intro-info {
     position: absolute;
     top: 30%;

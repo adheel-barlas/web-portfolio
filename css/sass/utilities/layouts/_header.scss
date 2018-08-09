@@ -1,12 +1,13 @@
 // Header layout 
 
 .header-intro{
-    height: 90vh;
+    height: 80vh;
     background: $white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: red;
     
     .intro-info{
         position: absolute;
