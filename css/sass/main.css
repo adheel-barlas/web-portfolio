@@ -73,6 +73,9 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px; }
+  .header-intro .intro-bg {
+    position: absolute;
+    bottom: 0; }
 
 /* Main Navigation */
 .container-nav {
