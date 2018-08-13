@@ -1,17 +1,16 @@
 // Header layout 
 
 .header-intro{
-    height: 80vh;
+    height: 90vh;
     background: $white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: red;
     
     .intro-info{
         position: absolute;
-        top: 30%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);   
         
@@ -32,7 +31,11 @@
     }
 
     .intro-bg{
-        position:absolute;
+        display: block;
+        max-width: 100%;
+        position: absolute;
         bottom:0;
+        left:50%;
+        transform:translateX(-50%);
     }
 }
