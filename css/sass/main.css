@@ -3,6 +3,7 @@ This file is used to contain all abstracts imports.
 Files inside this folder can contain abstract settings, helpers or functions. They have no direct output.
 */
 /* Mixins */
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:400,700");
 .draw-border {
   box-shadow: inset 0 0 0 4px #fff;
   color: #fff;
