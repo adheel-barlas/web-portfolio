@@ -5,7 +5,30 @@
 
 */
 
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Source+Sans+Pro:400,700");
 
 $montserrat: 'Montserrat', sans-serif;
-$merriweather: 'Merriweather', serif;
+$merriweather: 'Source Sans Pro', sans-serif;
+
+// Font weights
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+// Heading fonts
+h1 {
+    font-family: $montserrat;
+    font-weight: bold;
+    color: $black;  //color variable set elsewhere
+    -webkit-text-size-adjust: 100%;  //fix for iOS
+}
+
+// Body font
+h2,h3,h4, p {
+  font-family: $merriweather;
+  font-weight: $normal;
+  color: $black;  //color variable set elsewhere
+  -webkit-text-size-adjust: 100%;  //fix for iOS
+}
+
