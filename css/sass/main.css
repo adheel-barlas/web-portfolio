@@ -57,7 +57,7 @@ h1 {
 h2, h3, h4, p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  color: #262626;
+  color: #fff;
   -webkit-text-size-adjust: 100%; }
 
 /*
@@ -142,6 +142,15 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 
 section {
   margin-bottom: 2%; }
+
+.about-section {
+  background: #3C4BB3;
+  font-size: 2rem; }
+  .about-section .section-heading {
+    margin-top: 10%; }
+    .about-section .section-heading p {
+      margin-left: 15%;
+      width: 70%; }
 
 .container-skillbar {
   width: 100%;
