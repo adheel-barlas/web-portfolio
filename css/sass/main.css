@@ -299,13 +299,13 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
     border: #ccc 1px solid;
     border-radius: 10px; }
     .pricing-table .pricing-option:nth-child(even) {
-      margin: 0 2%; }
+      margin: 0 8%; }
     .pricing-table .pricing-option hr {
       border: none;
       border-bottom: 1px solid #F0F0F0; }
     .pricing-table .pricing-option i {
       font-size: 3rem;
-      color: #D8D8D8;
+      color: #3C4BB3;
       transition: all .3s ease-in-out; }
     .pricing-table .pricing-option h1 {
       margin: 10px 0;

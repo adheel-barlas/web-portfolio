@@ -19,7 +19,7 @@ $main-color: #F85E6A;
         border: $grey 1px solid;
         border-radius: 10px;
         &:nth-child(even) {
-            margin: 0 2%;
+            margin: 0 8%;
         }
         hr {
             border:none;
@@ -27,7 +27,7 @@ $main-color: #F85E6A;
         }
         i {
             font-size: $icon-size;
-            color: $icon-color;
+            color: $blue;
             transition: all .3s ease-in-out;
         }
         h1 {
