@@ -153,10 +153,6 @@ section {
       margin-left: 15%;
       width: 70%; }
 
-.skills-section {
-  margin-top: -14rem;
-  background: red; }
-
 .container-skillbar {
   width: 100%;
   height: auto;
@@ -291,30 +287,19 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 
 .pricing-table {
   display: table;
-  width: 100%; }
+  width: 100%;
+  margin-top: -12%; }
   .pricing-table .pricing-option {
     width: 28%;
     background: white;
     float: left;
     padding: 2%;
     text-align: center;
-    transition: all .3s ease-in-out; }
+    transition: all .3s ease-in-out;
+    border: #ccc 1px solid;
+    border-radius: 10px; }
     .pricing-table .pricing-option:nth-child(even) {
       margin: 0 2%; }
-    .pricing-table .pricing-option:hover {
-      cursor: pointer;
-      box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.3);
-      transform: scale(1.04); }
-      .pricing-table .pricing-option:hover i, .pricing-table .pricing-option:hover h1, .pricing-table .pricing-option:hover span, .pricing-table .pricing-option:hover b {
-        color: #F85E6A; }
-      .pricing-table .pricing-option:hover .front {
-        opacity: 0;
-        visibility: hidden; }
-      .pricing-table .pricing-option:hover .back {
-        opacity: 1 !important;
-        visibility: visible !important; }
-        .pricing-table .pricing-option:hover .back a.button {
-          transform: translateY(0px) !important; }
     .pricing-table .pricing-option hr {
       border: none;
       border-bottom: 1px solid #F0F0F0; }
