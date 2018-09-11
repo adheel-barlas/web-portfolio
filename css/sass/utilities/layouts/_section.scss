@@ -10,6 +10,7 @@ section{
 
 .about-section{
     background: $blue;
+    padding-bottom: 10%;
     font-size: 2rem;
     .section-heading{
         margin-top: 8%;
@@ -18,4 +19,9 @@ section{
             width: 70%;
         }
     }
+}
+
+.skills-section{
+    margin-top: -14rem;
+    background: red;
 }
