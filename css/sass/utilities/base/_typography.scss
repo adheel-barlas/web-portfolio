@@ -16,6 +16,7 @@ $normal: 400;
 $semibold: 500;
 $bold: 700;
 
+
 // Heading fonts
 h1 {
     font-family: $montserrat;
@@ -32,3 +33,5 @@ h2,h3,h4, p {
   -webkit-text-size-adjust: 100%;  //fix for iOS
 }
 
+// Distinct fonts
+$icon-size: 6rem;

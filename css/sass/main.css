@@ -304,7 +304,7 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
       border: none;
       border-bottom: 1px solid #F0F0F0; }
     .pricing-table .pricing-option i {
-      font-size: 3rem;
+      font-size: 6rem;
       color: #3C4BB3;
       transition: all .3s ease-in-out; }
     .pricing-table .pricing-option h1 {
