@@ -153,6 +153,9 @@ section {
       margin-left: 15%;
       width: 70%; }
 
+.portfolio-section .section-heading h2, .portfolio-section .section-heading p {
+  color: #262626; }
+
 .container-skillbar {
   width: 100%;
   height: auto;
