@@ -285,84 +285,95 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
     left: 0;
     transform: translateY(100%); }
 
-.pricing-table {
-  display: table;
+.panel {
+  background-color: #fff;
+  margin-top: -12%;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
   width: 100%;
-  margin-top: -12%; }
-  .pricing-table .pricing-option {
-    width: 28%;
-    background: white;
-    float: left;
-    padding: 2%;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    border: #ccc 1px solid;
-    border-radius: 10px; }
-    .pricing-table .pricing-option:nth-child(even) {
-      margin: 0 8%; }
-    .pricing-table .pricing-option hr {
-      border: none;
-      border-bottom: 1px solid #F0F0F0; }
-    .pricing-table .pricing-option i {
-      font-size: 6rem;
-      color: #3C4BB3;
-      transition: all .3s ease-in-out; }
-    .pricing-table .pricing-option h2 {
-      margin: 10px 0;
-      color: #212121;
-      transition: all .3s ease-in-out; }
-    .pricing-table .pricing-option p {
-      color: #999;
-      padding: 0 10px;
-      line-height: 1.3; }
-    .pricing-table .pricing-option ul {
-      list-style: none; }
-      .pricing-table .pricing-option ul li {
-        color: #999;
-        margin-bottom: 5px; }
-    .pricing-table .pricing-option .price {
-      position: relative; }
-      .pricing-table .pricing-option .price .front span.price {
-        font-size: 2rem;
-        text-transform: uppercase;
-        margin-top: 20px;
-        display: block;
-        font-weight: 700;
-        position: relative; }
-        .pricing-table .pricing-option .price .front span.price b {
-          position: absolute;
-          font-size: 1rem;
-          margin-left: 2px;
-          font-weight: 600; }
-      .pricing-table .pricing-option .price .back {
-        opacity: 0;
-        visibility: hidden;
-        transition: all .3s ease-in-out; }
-        .pricing-table .pricing-option .price .back a.button {
-          background: #F85E6A;
-          padding: 15px 20px;
-          display: inline-block;
-          text-decoration: none;
-          color: white;
-          position: absolute;
-          font-size: 13px;
-          top: -5px;
-          left: 0;
-          right: 0;
-          width: 150px;
-          margin: auto;
-          text-transform: uppercase;
-          transform: translateY(20px);
-          transition: all .3s ease-in-out; }
-          .pricing-table .pricing-option .price .back a.button:hover {
-            background: #f62d3d; }
+  z-index: 10; }
 
-@media screen and (max-width: 600px) {
-  .pricing-table .pricing-option {
-    padding: 5%;
-    width: 90%; }
-    .pricing-table .pricing-option:nth-child(even) {
-      margin: 30px 0 !important; } }
+.skills-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column; }
+
+@media (min-width: 900px) {
+  .skills-table {
+    flex-direction: row; } }
+.skills-table * {
+  text-align: center;
+  text-transform: uppercase; }
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px; }
+
+.pricing-plan:last-child {
+  border-bottom: none; }
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px; }
+
+  .pricing-plan:last-child {
+    border-right: none; } }
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%; }
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+.pricing-features {
+  color: #016FF9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px 0 25px; }
+
+.pricing-features-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0; }
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff; }
+
+.pricing-price {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700; }
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out; }
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff; }
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #fff; }
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff; }
+
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif; }
