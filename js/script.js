@@ -26,36 +26,6 @@ $(window).on("scroll", function(){
   beforeScroll = afterScroll;
 });
 
-// Skill bar component
-
-
-// Animation for skill bar
-var $window = $(window);
-var $elem = $(".container-skillbar")
-
-    function isScrolledIntoView($elem, $window) {
-        var docViewTop = $window.scrollTop();
-        var docViewBottom = docViewTop + $window.height();
-
-        var elemTop = $elem.offset().top;
-        var elemBottom = elemTop + $elem.height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-    }
-
-// On scroll to view point, animate skill bars
-$(document).on("scroll", function () {
-    if (isScrolledIntoView($elem, $window)) {
-        jQuery(document).ready(function(){
-          jQuery('.skillbar').each(function(){
-            jQuery(this).find('.skillbar-bar').animate({
-              width:jQuery(this).attr('data-percent')
-            },3000);
-          });
-        });
-    }
-});
-
 // Smooth scrolling on CTAs
 $("#ctaAbout").click(function() {
   $('html, body').animate({
