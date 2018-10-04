@@ -308,11 +308,10 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
   .skills-table {
     flex-direction: row; } }
 .skills-table * {
-  text-align: center;
-  text-transform: uppercase; }
+  text-align: center; }
 
 .skills-plan {
-  border-bottom: 1px solid #e1f1ff;
+  border-bottom: 1px solid #fff;
   padding: 25px; }
 
 .skills-plan:last-child {
@@ -332,12 +331,13 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
   max-width: 100%; }
 
 .skills-header {
-  color: #888;
+  color: #262626;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 1px; }
 
 .skills-features {
-  color: #016FF9;
+  color: #262626;
   font-weight: 600;
   letter-spacing: 1px;
   margin: 50px 0 25px; }
@@ -351,16 +351,11 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 .skills-features-item:last-child {
   border-bottom: 1px solid #e1f1ff; }
 
-.skills-price {
-  color: #016FF9;
-  display: block;
-  font-size: 32px;
-  font-weight: 700; }
-
 .skills-bio {
+  font-size: 18px;
   padding-top: 10px;
-  color: #016FF9;
-  font-weight: 600; }
+  color: #3C4BB3;
+  font-weight: 400; }
 
 .skills-button {
   border: 1px solid #9dd1ff;

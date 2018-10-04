@@ -1,6 +1,6 @@
 
 .panel {
-    background-color: #fff;
+    background-color: $white;
     margin-top: -12%;
     border-radius: 10px;
     padding: 15px 25px;
@@ -23,11 +23,10 @@
   
   .skills-table * {
     text-align: center;
-    text-transform: uppercase;
   }
   
   .skills-plan {
-    border-bottom: 1px solid #e1f1ff;
+    border-bottom: 1px solid $white;
     padding: 25px;
   }
   
@@ -38,7 +37,7 @@
   @media (min-width: 900px) {
     .skills-plan {
       border-bottom: none;
-      border-right: 1px solid #e1f1ff;
+      border-right: 1px solid $cyan-blue;
       flex-basis: 100%;
       padding: 25px 50px;
     }
@@ -54,40 +53,35 @@
   }
   
   .skills-header {
-    color: #888;
+    color: $black;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
   }
   
   .skills-features {
-    color: #016FF9;
+    color: $black;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 50px 0 25px;
   }
   
   .skills-features-item {
-    border-top: 1px solid #e1f1ff;
+    border-top: 1px solid $cyan-blue;
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
   }
   
   .skills-features-item:last-child {
-    border-bottom: 1px solid #e1f1ff;
-  }
-  
-  .skills-price {
-    color: #016FF9;
-    display: block;
-    font-size: 32px;
-    font-weight: 700;
+    border-bottom: 1px solid $cyan-blue;
   }
 
   .skills-bio {
+    font-size: 18px;
     padding-top: 10px;
-    color: #016FF9;
-    font-weight: 600;
+    color: $blue;
+    font-weight: $normal;
   }
   
   .skills-button {
