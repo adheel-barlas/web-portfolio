@@ -80,32 +80,8 @@
   .skills-bio {
     font-size: 18px;
     padding-top: 10px;
-    color: $blue;
+    color: $black;
     font-weight: $normal;
   }
   
-  .skills-button {
-    border: 1px solid #9dd1ff;
-    border-radius: 10px;
-    color: #348EFE;
-    display: inline-block;
-    margin: 25px 0;
-    padding: 15px 35px;
-    text-decoration: none;
-    transition: all 150ms ease-in-out;
-  }
   
-  .skills-button:hover,
-  .skills-button:focus {
-    background-color: #e1f1ff;
-  }
-  
-  .skills-button.is-featured {
-    background-color: #48aaff;
-    color: #fff;
-  }
-  
-  .skills-button.is-featured:hover,
-  .skills-button.is-featured:active {
-    background-color: #269aff;
-  }

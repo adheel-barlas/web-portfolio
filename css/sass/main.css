@@ -354,30 +354,8 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 .skills-bio {
   font-size: 18px;
   padding-top: 10px;
-  color: #3C4BB3;
+  color: #262626;
   font-weight: 400; }
-
-.skills-button {
-  border: 1px solid #9dd1ff;
-  border-radius: 10px;
-  color: #348EFE;
-  display: inline-block;
-  margin: 25px 0;
-  padding: 15px 35px;
-  text-decoration: none;
-  transition: all 150ms ease-in-out; }
-
-.skills-button:hover,
-.skills-button:focus {
-  background-color: #e1f1ff; }
-
-.skills-button.is-featured {
-  background-color: #48aaff;
-  color: #fff; }
-
-.skills-button.is-featured:hover,
-.skills-button.is-featured:active {
-  background-color: #269aff; }
 
 .blog-slider {
   width: 95%;
