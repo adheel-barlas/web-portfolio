@@ -9,6 +9,15 @@
     z-index: 10;
   }
   
+  ul {
+    list-style-type: none;
+    color: $black;
+    font-size: 16px;
+    font-weight: $normal;
+    letter-spacing: 1px;
+    margin-left: -30px;
+  }
+
   .skills-table {
     box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
     display: flex;
@@ -59,6 +68,7 @@
     letter-spacing: 1px;
   }
   
+
   .skills-features {
     color: $black;
     font-weight: 600;
@@ -83,5 +93,11 @@
     color: $black;
     font-weight: $normal;
   }
-  
-  
+
+  .skills-heading {
+    font-size: 18px;
+    padding-top: 10px;
+    color: $blue;
+    font-weight: $bold;
+  }
+ 
