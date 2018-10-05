@@ -1,5 +1,5 @@
 
-.blog-slider {
+.project-slider {
   width: 95%;
   position: relative;
   max-width: 800px;
@@ -37,13 +37,13 @@
   }
     
     &.swiper-slide-active {
-      .blog-slider__img {
+      .project-slider__img {
         img {
           opacity: 1;
         transition-delay: .3s;
         }
       }
-      .blog-slider__content {
+      .project-slider__content {
         > * {
       
         opacity: 1;

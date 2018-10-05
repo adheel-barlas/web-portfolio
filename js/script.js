@@ -40,7 +40,7 @@ $("#ctaProjects").click(function() {
   }, 2000);
 });
 
-var swiper = new Swiper('.blog-slider', {
+var swiper = new Swiper('.project-slider', {
   spaceBetween: 30,
   effect: 'fade',
   loop: true,
@@ -49,7 +49,7 @@ var swiper = new Swiper('.blog-slider', {
   },
   // autoHeight: true,
   pagination: {
-    el: '.blog-slider__pagination',
+    el: '.project-slider__pagination',
     clickable: true,
   }
 });
