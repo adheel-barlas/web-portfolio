@@ -4,12 +4,15 @@
     margin-bottom: 2%;
 }
 
-section{
+section {
     margin-bottom: 2%;
 }
 
-.about-section{
+.section-purple {
     background: $blue;
+}
+
+.about-section{
     padding-bottom: 10%;
     font-size: 2rem;
     .section-heading{
@@ -27,6 +30,17 @@ section{
             color: $black;
             margin-top: 8%;
             margin-bottom: 5%;
+        }
+    }
+}
+
+.contact-section {
+    font-size: 2rem;
+    .section-heading{
+        margin-top: 5%;
+        p {
+            margin-left: 15%;
+            width: 70%;
         }
     }
 }
