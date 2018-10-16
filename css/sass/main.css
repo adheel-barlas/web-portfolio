@@ -633,6 +633,7 @@ ul {
 
 .snip1527 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
   color: #ffffff;
   float: left;
   font-family: 'Lato', Arial, sans-serif;
