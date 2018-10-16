@@ -142,9 +142,13 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 
 section {
   margin-bottom: 2%; }
+  section h2 {
+    color: #000; }
 
 .section-purple {
   background: #3C4BB3; }
+  .section-purple h2 {
+    color: #fff; }
 
 .about-section {
   padding-bottom: 10%;

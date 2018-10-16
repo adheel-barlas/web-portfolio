@@ -6,10 +6,16 @@
 
 section {
     margin-bottom: 2%;
+    h2 {
+        color: $black;
+    }
 }
 
 .section-purple {
     background: $blue;
+    h2 {
+        color: $white;
+    }
 }
 
 .about-section{
@@ -33,7 +39,6 @@ section {
         }
     }
 }
-
 .contact-section {
     font-size: 2rem;
     .section-heading{
