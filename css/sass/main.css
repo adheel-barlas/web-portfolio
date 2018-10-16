@@ -172,6 +172,10 @@ section {
       margin-left: 15%;
       width: 70%; }
 
+.footer-section .logo img {
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
 .container-skillbar {
   width: 100%;
   height: auto;
