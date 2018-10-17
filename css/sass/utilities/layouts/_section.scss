@@ -84,7 +84,6 @@ section {
           
           a {
             color:#fff;
-            background: #DB6E82;
             border-radius:4px;
             text-align:center;
             text-decoration:none;
@@ -103,7 +102,7 @@ section {
           }
           
           a:hover {
-            background: #ef92a3;
+            background: $purple;
           }
           
           /* pop-up text */
@@ -153,22 +152,13 @@ section {
           /* font awesome icons */
           
           a:nth-of-type(1):before {
-          content:'\f09a';
+          content:'\f0e1';
           }
           a:nth-of-type(2):before {
-          content:'\f099';
+          content:'\f09b';
           }
           a:nth-of-type(3):before {
-          content:'\f0d5';
-          }
-          a:nth-of-type(4):before {
-          content:'\f113';
-          }
-          a:nth-of-type(5):before {
-          content:'\f17d';
-          }
-          a:nth-of-type(6):before {
-          content:'\f1cb';
+          content:'\f01c';
           }
     }
 }
