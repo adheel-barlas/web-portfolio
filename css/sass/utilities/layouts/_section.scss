@@ -51,7 +51,16 @@ section {
 }
 
 .collab-section {
+  .project-center{
     background: $dark-blue;
+    padding: 3rem;
+    border-radius: 1.5rem;
+  }
+
+  h2{
+      color: $white;
+      font-weight: $bold;
+  }
 }
 
 
