@@ -180,6 +180,9 @@ section {
   .footer-section .footer-quote {
     font-size: 2rem;
     opacity: 0.8; }
+  .footer-section .footer-copyright {
+    font-size: 1.5rem;
+    opacity: 0.8; }
   .footer-section .social-icons {
     /* Icons */
     /* pop-up text */
