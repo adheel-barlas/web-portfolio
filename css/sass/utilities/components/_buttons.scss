@@ -84,6 +84,7 @@
   color: white;
   overflow: hidden;
   position: relative;
+  border-radius: 5px;
 }
 .button.outline:before, .button.outline:after, .button.outline .lines:before, .button.outline .lines:after {
   background-color: white;

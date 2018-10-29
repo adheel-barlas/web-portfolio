@@ -403,7 +403,8 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 .button.outline {
   color: white;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  border-radius: 5px; }
 
 .button.outline:before, .button.outline:after, .button.outline .lines:before, .button.outline .lines:after {
   background-color: white;
