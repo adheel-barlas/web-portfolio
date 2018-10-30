@@ -55,8 +55,7 @@ section {
 }
 
 .collab-section {
-    position: absolute;
-    margin-top: -4%;
+    position: relative;
     .project-center{
     background: $dark-blue;
     padding: 3rem;
@@ -71,6 +70,7 @@ section {
 
 
 .footer-section {
+    margin-top: -6%;
     margin-bottom: 0px;
     .logo {
         img {

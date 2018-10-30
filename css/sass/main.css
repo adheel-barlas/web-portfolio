@@ -176,8 +176,7 @@ section {
   margin-bottom: 10%; }
 
 .collab-section {
-  position: absolute;
-  margin-top: -4%; }
+  position: relative; }
   .collab-section .project-center {
     background: #293347;
     padding: 3rem;
@@ -187,6 +186,7 @@ section {
     font-weight: 700; }
 
 .footer-section {
+  margin-top: -6%;
   margin-bottom: 0px; }
   .footer-section .logo img {
     margin-top: 10%;
