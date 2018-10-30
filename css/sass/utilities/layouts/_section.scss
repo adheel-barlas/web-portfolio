@@ -50,9 +50,14 @@ section {
     }
 }
 
-.collab-section {
+.blog-section {
+    margin-bottom: 10%;
+}
 
-  .project-center{
+.collab-section {
+    position: absolute;
+    margin-top: -4%;
+    .project-center{
     background: $dark-blue;
     padding: 3rem;
     border-radius: 1.5rem;
@@ -67,7 +72,6 @@ section {
 
 .footer-section {
     margin-bottom: 0px;
-    
     .logo {
         img {
             margin-top: 10%;

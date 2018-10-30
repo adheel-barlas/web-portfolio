@@ -172,13 +172,19 @@ section {
       margin-left: 15%;
       width: 70%; }
 
-.collab-section .project-center {
-  background: #293347;
-  padding: 3rem;
-  border-radius: 1.5rem; }
-.collab-section h2 {
-  color: #fff;
-  font-weight: 700; }
+.blog-section {
+  margin-bottom: 10%; }
+
+.collab-section {
+  position: absolute;
+  margin-top: -4%; }
+  .collab-section .project-center {
+    background: #293347;
+    padding: 3rem;
+    border-radius: 1.5rem; }
+  .collab-section h2 {
+    color: #fff;
+    font-weight: 700; }
 
 .footer-section {
   margin-bottom: 0px; }
