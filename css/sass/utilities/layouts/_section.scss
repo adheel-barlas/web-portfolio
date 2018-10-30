@@ -66,6 +66,15 @@ section {
       color: $white;
       font-weight: $bold;
   }
+
+  .project-slider__button {
+    color: $white;
+    &:hover{
+        text-decoration: none;
+        color: $grey;
+    }
+  }
+
 }
 
 

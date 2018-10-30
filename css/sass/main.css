@@ -184,6 +184,11 @@ section {
   .collab-section h2 {
     color: #fff;
     font-weight: 700; }
+  .collab-section .project-slider__button {
+    color: #fff; }
+    .collab-section .project-slider__button:hover {
+      text-decoration: none;
+      color: #ccc; }
 
 .footer-section {
   margin-top: -6%;
