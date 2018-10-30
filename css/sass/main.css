@@ -188,7 +188,8 @@ section {
     margin-top: 5px;
     font-size: 1.5rem; }
   .collab-section .project-slider__button {
-    color: #fff; }
+    color: #fff;
+    margin-top: 10px; }
     .collab-section .project-slider__button:hover {
       text-decoration: none;
       color: #ccc; }
