@@ -191,21 +191,46 @@ section h2 {
   width: 70%;
 }
 
-.portfolio-section .section-heading h2, .portfolio-section .section-heading p {
-  color: #000;
+.portfolio-section {
+  font-size: 2rem;
+  padding-bottom: 100px;
+}
+.portfolio-section h2, .portfolio-section h3, .portfolio-section p {
+  color: #fff;
   margin-top: 4%;
   margin-bottom: 5%;
 }
-
-.contact-section {
-  font-size: 2rem;
-}
-.contact-section .section-heading {
+.portfolio-section .section-heading {
   margin-top: 5%;
 }
-.contact-section .section-heading p {
+.portfolio-section .section-heading p {
   margin-left: 15%;
   width: 70%;
+}
+
+.project-section {
+  margin-top: -5%;
+}
+.project-section h3, .project-section p {
+  color: #000;
+}
+.project-section .box {
+  padding: 30px;
+  border-radius: 1.5rem;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  background: #fff;
+  border: black;
+}
+.project-section .box img {
+  margin-bottom: 30px;
+}
+.project-section .box p {
+  color: #2a2b30;
+  font-size: 1.75rem;
+  margin-bottom: 30px;
+}
+.project-section .box .project-slider__button {
+  text-align: center !important;
 }
 
 .blog-section {

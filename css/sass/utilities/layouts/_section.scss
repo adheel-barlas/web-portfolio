@@ -31,22 +31,46 @@ section {
 }
 
 .portfolio-section {
-    .section-heading {
-        h2, p {
-            color: $black;
-            margin-top: 4%;
-            margin-bottom: 5%;
-        }
-    }
-}
-.contact-section {
     font-size: 2rem;
+    padding-bottom: 100px;
+    h2, h3, p {
+        color: $white;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
     .section-heading{
         margin-top: 5%;
         p {
             margin-left: 15%;
             width: 70%;
         }
+    }
+}
+
+.project-section {
+    margin-top: -5%; 
+    h3, p {
+        color: $black;
+    }
+    
+    .box {
+        img {
+           margin-bottom: 30px; 
+        }
+        p {
+            color: $dark-bg;
+            font-size: 1.75rem;
+            margin-bottom: 30px;
+        }
+        .project-slider__button {
+            text-align: center !important; 
+       }
+        padding: 30px;
+        border-radius: 1.5rem;
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+        background: $white;
+        border: black;
     }
 }
 
