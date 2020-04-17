@@ -216,6 +216,7 @@ section h2 {
 }
 .project-section .box {
   padding: 30px;
+  margin-bottom: 30px;
   border-radius: 1.5rem;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
   background: #fff;
@@ -229,8 +230,10 @@ section h2 {
   font-size: 1.75rem;
   margin-bottom: 30px;
 }
-.project-section .box .project-slider__button {
-  text-align: center !important;
+.project-section .box .project-section__button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3C4BB3;
 }
 
 .blog-section {

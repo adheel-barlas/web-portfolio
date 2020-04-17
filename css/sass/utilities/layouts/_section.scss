@@ -58,19 +58,27 @@ section {
         img {
            margin-bottom: 30px; 
         }
+        
         p {
             color: $dark-bg;
             font-size: 1.75rem;
             margin-bottom: 30px;
         }
-        .project-slider__button {
-            text-align: center !important; 
-       }
+        
+        .project-section__button {
+            font-size: 1.5rem;
+            font-weight: $bold;
+            color: $blue;
+        }
+
         padding: 30px;
+        margin-bottom: 30px;
         border-radius: 1.5rem;
         box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
         background: $white;
         border: black;
+
+        
     }
 }
 
